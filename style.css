@@ -26,3 +26,39 @@ body {
   text-align: center;
   color: #000000;
 }
+
+.bg-photo-second {
+  background-image: url(./Images/beyonce-JPEG.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 40px 20px;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  color: #000000;
+}
+
+.shield {
+  max-width: 800px;
+  width: 90%;
+  margin: auto;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
+}
+
+.intro {
+  padding: 40px 20px;
+}
+
+#results {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
