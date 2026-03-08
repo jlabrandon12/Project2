@@ -1,5 +1,5 @@
 let button = document.getElementById("searchBtn");
-let results = document.getElementById("results"); //these elements are in html and we are grabbing them
+let results = document.getElementById("results"); //these elements are in html and we're gathering them
 
 button.addEventListener("click", function (e) {
   //this says: when the user clicks this button, run this function. (e) represents object/click event

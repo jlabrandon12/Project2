@@ -44,6 +44,24 @@ body {
   color: #000000;
 }
 
+.bg-photo-third {
+  background-image: url(./Images/dwayne-johnson-WEBP.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 40px 20px;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  color: #000000;
+}
+
+
 .shield {
   max-width: 800px;
   width: 90%;
