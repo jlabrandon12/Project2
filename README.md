@@ -13,3 +13,4 @@
 
 ## Giphy API Key:
 
+https://api.giphy.com/v1/gifs/search?api_key=S71EVb1mpdRUNvmmnkRtl3mAQ6BZzS0W=${keyword}&limit=12
